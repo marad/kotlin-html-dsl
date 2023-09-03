@@ -1,6 +1,5 @@
 plugins {
     kotlin("jvm") version "1.9.0"
-    application
 }
 
 group = "gh.marad"
@@ -11,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    testImplementation("io.kotest:kotest-assertions-core-jvm:5.7.0")
     testImplementation(kotlin("test"))
 }
 
@@ -19,9 +19,5 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(8)
-}
-
-application {
-    mainClass.set("MainKt")
+    jvmToolchain(17)
 }

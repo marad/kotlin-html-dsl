@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package gh.marad.html.dsl
+package io.github.marad.html.dsl
 
 class Html {
     val sb = StringBuilder()

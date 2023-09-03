@@ -1,4 +1,4 @@
-package gh.marad.html.dsl
+package io.github.marad.html.dsl
 
 import io.kotest.matchers.shouldBe
 import org.junit.jupiter.api.Test

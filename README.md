@@ -24,7 +24,7 @@ looking for a library to use!
 Define your dependency:
 
 ```kotlin
-implementation("gh.marad:kotlin-html-dsl:<VERSION>")
+implementation("io.github.marad:kotlin-html-dsl:<VERSION>")
 ```
 
 And you are good to go! There are currently 3 top-level functions that will 
@@ -40,7 +40,7 @@ get you going:
 To kick things of lets generate a page with link to Google:
 
 ```kotlin
-import gh.marad.html.dsl.*
+import io.github.marad.html.dsl.*
 
 val result: String = html {
     head {
@@ -65,7 +65,7 @@ If you want to simply create a part of the HTML you'll probably want to
 use `div` for that:
 
 ```kotlin
-import gh.marad.html.dsl.*
+import io.github.marad.html.dsl.*
 
 val result: String = div {
     text("Hello World!")
@@ -76,7 +76,7 @@ And finally - you can enclose some parts of your HTML for later use with
 custom functions:
 
 ```kotlin
-import gh.marad.html.dsl.*
+import io.github.marad.html.dsl.*
 
 fun Html.hello(name: String) = div {
     text("Hello $name!")

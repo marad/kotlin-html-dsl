@@ -4,7 +4,7 @@ plugins {
     id("pl.allegro.tech.build.axion-release") version "1.15.4"
 }
 
-group = "gh.marad"
+group = "io.github.marad"
 project.version = scmVersion.version
 
 repositories {

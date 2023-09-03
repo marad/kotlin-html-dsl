@@ -22,13 +22,13 @@ fun createTag(name: String): String {
 
     return """  
 fun Html.$funcName(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("$name", attrs = attrs.toMap(), content = content)  
+    tag("$name", attrs = attrs, content = content)  
 fun Html.$funcName(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("$name", classes, attrs.toMap(), content)  
+    tag("$name", classes = classes, attrs = attrs, content)  
 fun Html.$funcName(vararg attrs: Pair<String, Any>) =  
-tag("$name", attrs = attrs.toMap())  
+    tag("$name", attrs = attrs)  
 fun Html.$funcName(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("$name", classes, attrs.toMap())  
+    tag("$name", classes = classes, attrs = attrs)  
 """.trimIndent()
 }
 
@@ -39,6 +39,9 @@ fun escapeKeyword(name: String): String =
 
 val sb = StringBuilder()
 
+
+sb.appendLine("@file:Suppress(\"unused\", \"SpellCheckingInspection\")")
+sb.appendLine()
 sb.appendLine("package gh.marad.html.dsl")
 sb.appendLine()
 tags.forEach {

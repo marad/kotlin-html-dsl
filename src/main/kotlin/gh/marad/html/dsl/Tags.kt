@@ -1,1030 +1,1030 @@
-@file:Suppress("unused")
+@file:Suppress("unused", "SpellCheckingInspection")
 
 package gh.marad.html.dsl
 
 fun Html.a(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("a", attrs = attrs.toMap(), content = content)  
+    tag("a", attrs = attrs, content = content)  
 fun Html.a(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("a", classes, attrs.toMap(), content)  
+    tag("a", classes = classes, attrs = attrs, content)  
 fun Html.a(vararg attrs: Pair<String, Any>) =  
-tag("a", attrs = attrs.toMap())  
+    tag("a", attrs = attrs)  
 fun Html.a(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("a", classes, attrs.toMap())  
+    tag("a", classes = classes, attrs = attrs)  
 
 fun Html.abbr(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("abbr", attrs = attrs.toMap(), content = content)  
+    tag("abbr", attrs = attrs, content = content)  
 fun Html.abbr(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("abbr", classes, attrs.toMap(), content)  
+    tag("abbr", classes = classes, attrs = attrs, content)  
 fun Html.abbr(vararg attrs: Pair<String, Any>) =  
-tag("abbr", attrs = attrs.toMap())  
+    tag("abbr", attrs = attrs)  
 fun Html.abbr(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("abbr", classes, attrs.toMap())  
+    tag("abbr", classes = classes, attrs = attrs)  
 
 fun Html.address(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("address", attrs = attrs.toMap(), content = content)  
+    tag("address", attrs = attrs, content = content)  
 fun Html.address(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("address", classes, attrs.toMap(), content)  
+    tag("address", classes = classes, attrs = attrs, content)  
 fun Html.address(vararg attrs: Pair<String, Any>) =  
-tag("address", attrs = attrs.toMap())  
+    tag("address", attrs = attrs)  
 fun Html.address(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("address", classes, attrs.toMap())  
+    tag("address", classes = classes, attrs = attrs)  
 
 fun Html.area(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("area", attrs = attrs.toMap(), content = content)  
+    tag("area", attrs = attrs, content = content)  
 fun Html.area(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("area", classes, attrs.toMap(), content)  
+    tag("area", classes = classes, attrs = attrs, content)  
 fun Html.area(vararg attrs: Pair<String, Any>) =  
-tag("area", attrs = attrs.toMap())  
+    tag("area", attrs = attrs)  
 fun Html.area(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("area", classes, attrs.toMap())  
+    tag("area", classes = classes, attrs = attrs)  
 
 fun Html.article(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("article", attrs = attrs.toMap(), content = content)  
+    tag("article", attrs = attrs, content = content)  
 fun Html.article(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("article", classes, attrs.toMap(), content)  
+    tag("article", classes = classes, attrs = attrs, content)  
 fun Html.article(vararg attrs: Pair<String, Any>) =  
-tag("article", attrs = attrs.toMap())  
+    tag("article", attrs = attrs)  
 fun Html.article(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("article", classes, attrs.toMap())  
+    tag("article", classes = classes, attrs = attrs)  
 
 fun Html.aside(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("aside", attrs = attrs.toMap(), content = content)  
+    tag("aside", attrs = attrs, content = content)  
 fun Html.aside(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("aside", classes, attrs.toMap(), content)  
+    tag("aside", classes = classes, attrs = attrs, content)  
 fun Html.aside(vararg attrs: Pair<String, Any>) =  
-tag("aside", attrs = attrs.toMap())  
+    tag("aside", attrs = attrs)  
 fun Html.aside(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("aside", classes, attrs.toMap())  
+    tag("aside", classes = classes, attrs = attrs)  
 
 fun Html.audio(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("audio", attrs = attrs.toMap(), content = content)  
+    tag("audio", attrs = attrs, content = content)  
 fun Html.audio(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("audio", classes, attrs.toMap(), content)  
+    tag("audio", classes = classes, attrs = attrs, content)  
 fun Html.audio(vararg attrs: Pair<String, Any>) =  
-tag("audio", attrs = attrs.toMap())  
+    tag("audio", attrs = attrs)  
 fun Html.audio(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("audio", classes, attrs.toMap())  
+    tag("audio", classes = classes, attrs = attrs)  
 
 fun Html.b(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("b", attrs = attrs.toMap(), content = content)  
+    tag("b", attrs = attrs, content = content)  
 fun Html.b(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("b", classes, attrs.toMap(), content)  
+    tag("b", classes = classes, attrs = attrs, content)  
 fun Html.b(vararg attrs: Pair<String, Any>) =  
-tag("b", attrs = attrs.toMap())  
+    tag("b", attrs = attrs)  
 fun Html.b(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("b", classes, attrs.toMap())  
+    tag("b", classes = classes, attrs = attrs)  
 
 fun Html.base(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("base", attrs = attrs.toMap(), content = content)  
+    tag("base", attrs = attrs, content = content)  
 fun Html.base(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("base", classes, attrs.toMap(), content)  
+    tag("base", classes = classes, attrs = attrs, content)  
 fun Html.base(vararg attrs: Pair<String, Any>) =  
-tag("base", attrs = attrs.toMap())  
+    tag("base", attrs = attrs)  
 fun Html.base(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("base", classes, attrs.toMap())  
+    tag("base", classes = classes, attrs = attrs)  
 
 fun Html.bdi(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("bdi", attrs = attrs.toMap(), content = content)  
+    tag("bdi", attrs = attrs, content = content)  
 fun Html.bdi(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("bdi", classes, attrs.toMap(), content)  
+    tag("bdi", classes = classes, attrs = attrs, content)  
 fun Html.bdi(vararg attrs: Pair<String, Any>) =  
-tag("bdi", attrs = attrs.toMap())  
+    tag("bdi", attrs = attrs)  
 fun Html.bdi(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("bdi", classes, attrs.toMap())  
+    tag("bdi", classes = classes, attrs = attrs)  
 
 fun Html.bdo(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("bdo", attrs = attrs.toMap(), content = content)  
+    tag("bdo", attrs = attrs, content = content)  
 fun Html.bdo(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("bdo", classes, attrs.toMap(), content)  
+    tag("bdo", classes = classes, attrs = attrs, content)  
 fun Html.bdo(vararg attrs: Pair<String, Any>) =  
-tag("bdo", attrs = attrs.toMap())  
+    tag("bdo", attrs = attrs)  
 fun Html.bdo(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("bdo", classes, attrs.toMap())  
+    tag("bdo", classes = classes, attrs = attrs)  
 
 fun Html.blockquote(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("blockquote", attrs = attrs.toMap(), content = content)  
+    tag("blockquote", attrs = attrs, content = content)  
 fun Html.blockquote(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("blockquote", classes, attrs.toMap(), content)  
+    tag("blockquote", classes = classes, attrs = attrs, content)  
 fun Html.blockquote(vararg attrs: Pair<String, Any>) =  
-tag("blockquote", attrs = attrs.toMap())  
+    tag("blockquote", attrs = attrs)  
 fun Html.blockquote(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("blockquote", classes, attrs.toMap())  
+    tag("blockquote", classes = classes, attrs = attrs)  
 
 fun Html.body(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("body", attrs = attrs.toMap(), content = content)  
+    tag("body", attrs = attrs, content = content)  
 fun Html.body(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("body", classes, attrs.toMap(), content)  
+    tag("body", classes = classes, attrs = attrs, content)  
 fun Html.body(vararg attrs: Pair<String, Any>) =  
-tag("body", attrs = attrs.toMap())  
+    tag("body", attrs = attrs)  
 fun Html.body(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("body", classes, attrs.toMap())  
+    tag("body", classes = classes, attrs = attrs)  
 
 fun Html.br(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("br", attrs = attrs.toMap(), content = content)  
+    tag("br", attrs = attrs, content = content)  
 fun Html.br(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("br", classes, attrs.toMap(), content)  
+    tag("br", classes = classes, attrs = attrs, content)  
 fun Html.br(vararg attrs: Pair<String, Any>) =  
-tag("br", attrs = attrs.toMap())  
+    tag("br", attrs = attrs)  
 fun Html.br(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("br", classes, attrs.toMap())  
+    tag("br", classes = classes, attrs = attrs)  
 
 fun Html.button(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("button", attrs = attrs.toMap(), content = content)  
+    tag("button", attrs = attrs, content = content)  
 fun Html.button(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("button", classes, attrs.toMap(), content)  
+    tag("button", classes = classes, attrs = attrs, content)  
 fun Html.button(vararg attrs: Pair<String, Any>) =  
-tag("button", attrs = attrs.toMap())  
+    tag("button", attrs = attrs)  
 fun Html.button(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("button", classes, attrs.toMap())  
+    tag("button", classes = classes, attrs = attrs)  
 
 fun Html.canvas(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("canvas", attrs = attrs.toMap(), content = content)  
+    tag("canvas", attrs = attrs, content = content)  
 fun Html.canvas(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("canvas", classes, attrs.toMap(), content)  
+    tag("canvas", classes = classes, attrs = attrs, content)  
 fun Html.canvas(vararg attrs: Pair<String, Any>) =  
-tag("canvas", attrs = attrs.toMap())  
+    tag("canvas", attrs = attrs)  
 fun Html.canvas(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("canvas", classes, attrs.toMap())  
+    tag("canvas", classes = classes, attrs = attrs)  
 
 fun Html.caption(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("caption", attrs = attrs.toMap(), content = content)  
+    tag("caption", attrs = attrs, content = content)  
 fun Html.caption(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("caption", classes, attrs.toMap(), content)  
+    tag("caption", classes = classes, attrs = attrs, content)  
 fun Html.caption(vararg attrs: Pair<String, Any>) =  
-tag("caption", attrs = attrs.toMap())  
+    tag("caption", attrs = attrs)  
 fun Html.caption(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("caption", classes, attrs.toMap())  
+    tag("caption", classes = classes, attrs = attrs)  
 
 fun Html.cite(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("cite", attrs = attrs.toMap(), content = content)  
+    tag("cite", attrs = attrs, content = content)  
 fun Html.cite(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("cite", classes, attrs.toMap(), content)  
+    tag("cite", classes = classes, attrs = attrs, content)  
 fun Html.cite(vararg attrs: Pair<String, Any>) =  
-tag("cite", attrs = attrs.toMap())  
+    tag("cite", attrs = attrs)  
 fun Html.cite(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("cite", classes, attrs.toMap())  
+    tag("cite", classes = classes, attrs = attrs)  
 
 fun Html.code(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("code", attrs = attrs.toMap(), content = content)  
+    tag("code", attrs = attrs, content = content)  
 fun Html.code(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("code", classes, attrs.toMap(), content)  
+    tag("code", classes = classes, attrs = attrs, content)  
 fun Html.code(vararg attrs: Pair<String, Any>) =  
-tag("code", attrs = attrs.toMap())  
+    tag("code", attrs = attrs)  
 fun Html.code(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("code", classes, attrs.toMap())  
+    tag("code", classes = classes, attrs = attrs)  
 
 fun Html.col(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("col", attrs = attrs.toMap(), content = content)  
+    tag("col", attrs = attrs, content = content)  
 fun Html.col(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("col", classes, attrs.toMap(), content)  
+    tag("col", classes = classes, attrs = attrs, content)  
 fun Html.col(vararg attrs: Pair<String, Any>) =  
-tag("col", attrs = attrs.toMap())  
+    tag("col", attrs = attrs)  
 fun Html.col(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("col", classes, attrs.toMap())  
+    tag("col", classes = classes, attrs = attrs)  
 
 fun Html.colgroup(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("colgroup", attrs = attrs.toMap(), content = content)  
+    tag("colgroup", attrs = attrs, content = content)  
 fun Html.colgroup(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("colgroup", classes, attrs.toMap(), content)  
+    tag("colgroup", classes = classes, attrs = attrs, content)  
 fun Html.colgroup(vararg attrs: Pair<String, Any>) =  
-tag("colgroup", attrs = attrs.toMap())  
+    tag("colgroup", attrs = attrs)  
 fun Html.colgroup(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("colgroup", classes, attrs.toMap())  
+    tag("colgroup", classes = classes, attrs = attrs)  
 
 fun Html.data(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("data", attrs = attrs.toMap(), content = content)  
+    tag("data", attrs = attrs, content = content)  
 fun Html.data(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("data", classes, attrs.toMap(), content)  
+    tag("data", classes = classes, attrs = attrs, content)  
 fun Html.data(vararg attrs: Pair<String, Any>) =  
-tag("data", attrs = attrs.toMap())  
+    tag("data", attrs = attrs)  
 fun Html.data(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("data", classes, attrs.toMap())  
+    tag("data", classes = classes, attrs = attrs)  
 
 fun Html.datalist(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("datalist", attrs = attrs.toMap(), content = content)  
+    tag("datalist", attrs = attrs, content = content)  
 fun Html.datalist(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("datalist", classes, attrs.toMap(), content)  
+    tag("datalist", classes = classes, attrs = attrs, content)  
 fun Html.datalist(vararg attrs: Pair<String, Any>) =  
-tag("datalist", attrs = attrs.toMap())  
+    tag("datalist", attrs = attrs)  
 fun Html.datalist(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("datalist", classes, attrs.toMap())  
+    tag("datalist", classes = classes, attrs = attrs)  
 
 fun Html.dd(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dd", attrs = attrs.toMap(), content = content)  
+    tag("dd", attrs = attrs, content = content)  
 fun Html.dd(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dd", classes, attrs.toMap(), content)  
+    tag("dd", classes = classes, attrs = attrs, content)  
 fun Html.dd(vararg attrs: Pair<String, Any>) =  
-tag("dd", attrs = attrs.toMap())  
+    tag("dd", attrs = attrs)  
 fun Html.dd(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("dd", classes, attrs.toMap())  
+    tag("dd", classes = classes, attrs = attrs)  
 
 fun Html.del(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("del", attrs = attrs.toMap(), content = content)  
+    tag("del", attrs = attrs, content = content)  
 fun Html.del(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("del", classes, attrs.toMap(), content)  
+    tag("del", classes = classes, attrs = attrs, content)  
 fun Html.del(vararg attrs: Pair<String, Any>) =  
-tag("del", attrs = attrs.toMap())  
+    tag("del", attrs = attrs)  
 fun Html.del(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("del", classes, attrs.toMap())  
+    tag("del", classes = classes, attrs = attrs)  
 
 fun Html.details(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("details", attrs = attrs.toMap(), content = content)  
+    tag("details", attrs = attrs, content = content)  
 fun Html.details(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("details", classes, attrs.toMap(), content)  
+    tag("details", classes = classes, attrs = attrs, content)  
 fun Html.details(vararg attrs: Pair<String, Any>) =  
-tag("details", attrs = attrs.toMap())  
+    tag("details", attrs = attrs)  
 fun Html.details(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("details", classes, attrs.toMap())  
+    tag("details", classes = classes, attrs = attrs)  
 
 fun Html.dfn(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dfn", attrs = attrs.toMap(), content = content)  
+    tag("dfn", attrs = attrs, content = content)  
 fun Html.dfn(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dfn", classes, attrs.toMap(), content)  
+    tag("dfn", classes = classes, attrs = attrs, content)  
 fun Html.dfn(vararg attrs: Pair<String, Any>) =  
-tag("dfn", attrs = attrs.toMap())  
+    tag("dfn", attrs = attrs)  
 fun Html.dfn(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("dfn", classes, attrs.toMap())  
+    tag("dfn", classes = classes, attrs = attrs)  
 
 fun Html.dialog(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dialog", attrs = attrs.toMap(), content = content)  
+    tag("dialog", attrs = attrs, content = content)  
 fun Html.dialog(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dialog", classes, attrs.toMap(), content)  
+    tag("dialog", classes = classes, attrs = attrs, content)  
 fun Html.dialog(vararg attrs: Pair<String, Any>) =  
-tag("dialog", attrs = attrs.toMap())  
+    tag("dialog", attrs = attrs)  
 fun Html.dialog(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("dialog", classes, attrs.toMap())  
+    tag("dialog", classes = classes, attrs = attrs)  
 
 fun Html.div(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("div", attrs = attrs.toMap(), content = content)  
+    tag("div", attrs = attrs, content = content)  
 fun Html.div(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("div", classes, attrs.toMap(), content)  
+    tag("div", classes = classes, attrs = attrs, content)  
 fun Html.div(vararg attrs: Pair<String, Any>) =  
-tag("div", attrs = attrs.toMap())  
+    tag("div", attrs = attrs)  
 fun Html.div(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("div", classes, attrs.toMap())  
+    tag("div", classes = classes, attrs = attrs)  
 
 fun Html.dl(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dl", attrs = attrs.toMap(), content = content)  
+    tag("dl", attrs = attrs, content = content)  
 fun Html.dl(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dl", classes, attrs.toMap(), content)  
+    tag("dl", classes = classes, attrs = attrs, content)  
 fun Html.dl(vararg attrs: Pair<String, Any>) =  
-tag("dl", attrs = attrs.toMap())  
+    tag("dl", attrs = attrs)  
 fun Html.dl(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("dl", classes, attrs.toMap())  
+    tag("dl", classes = classes, attrs = attrs)  
 
 fun Html.dt(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dt", attrs = attrs.toMap(), content = content)  
+    tag("dt", attrs = attrs, content = content)  
 fun Html.dt(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("dt", classes, attrs.toMap(), content)  
+    tag("dt", classes = classes, attrs = attrs, content)  
 fun Html.dt(vararg attrs: Pair<String, Any>) =  
-tag("dt", attrs = attrs.toMap())  
+    tag("dt", attrs = attrs)  
 fun Html.dt(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("dt", classes, attrs.toMap())  
+    tag("dt", classes = classes, attrs = attrs)  
 
 fun Html.em(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("em", attrs = attrs.toMap(), content = content)  
+    tag("em", attrs = attrs, content = content)  
 fun Html.em(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("em", classes, attrs.toMap(), content)  
+    tag("em", classes = classes, attrs = attrs, content)  
 fun Html.em(vararg attrs: Pair<String, Any>) =  
-tag("em", attrs = attrs.toMap())  
+    tag("em", attrs = attrs)  
 fun Html.em(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("em", classes, attrs.toMap())  
+    tag("em", classes = classes, attrs = attrs)  
 
 fun Html.embed(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("embed", attrs = attrs.toMap(), content = content)  
+    tag("embed", attrs = attrs, content = content)  
 fun Html.embed(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("embed", classes, attrs.toMap(), content)  
+    tag("embed", classes = classes, attrs = attrs, content)  
 fun Html.embed(vararg attrs: Pair<String, Any>) =  
-tag("embed", attrs = attrs.toMap())  
+    tag("embed", attrs = attrs)  
 fun Html.embed(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("embed", classes, attrs.toMap())  
+    tag("embed", classes = classes, attrs = attrs)  
 
 fun Html.fieldset(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("fieldset", attrs = attrs.toMap(), content = content)  
+    tag("fieldset", attrs = attrs, content = content)  
 fun Html.fieldset(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("fieldset", classes, attrs.toMap(), content)  
+    tag("fieldset", classes = classes, attrs = attrs, content)  
 fun Html.fieldset(vararg attrs: Pair<String, Any>) =  
-tag("fieldset", attrs = attrs.toMap())  
+    tag("fieldset", attrs = attrs)  
 fun Html.fieldset(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("fieldset", classes, attrs.toMap())  
+    tag("fieldset", classes = classes, attrs = attrs)  
 
 fun Html.figcaption(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("figcaption", attrs = attrs.toMap(), content = content)  
+    tag("figcaption", attrs = attrs, content = content)  
 fun Html.figcaption(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("figcaption", classes, attrs.toMap(), content)  
+    tag("figcaption", classes = classes, attrs = attrs, content)  
 fun Html.figcaption(vararg attrs: Pair<String, Any>) =  
-tag("figcaption", attrs = attrs.toMap())  
+    tag("figcaption", attrs = attrs)  
 fun Html.figcaption(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("figcaption", classes, attrs.toMap())  
+    tag("figcaption", classes = classes, attrs = attrs)  
 
 fun Html.figure(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("figure", attrs = attrs.toMap(), content = content)  
+    tag("figure", attrs = attrs, content = content)  
 fun Html.figure(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("figure", classes, attrs.toMap(), content)  
+    tag("figure", classes = classes, attrs = attrs, content)  
 fun Html.figure(vararg attrs: Pair<String, Any>) =  
-tag("figure", attrs = attrs.toMap())  
+    tag("figure", attrs = attrs)  
 fun Html.figure(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("figure", classes, attrs.toMap())  
+    tag("figure", classes = classes, attrs = attrs)  
 
 fun Html.footer(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("footer", attrs = attrs.toMap(), content = content)  
+    tag("footer", attrs = attrs, content = content)  
 fun Html.footer(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("footer", classes, attrs.toMap(), content)  
+    tag("footer", classes = classes, attrs = attrs, content)  
 fun Html.footer(vararg attrs: Pair<String, Any>) =  
-tag("footer", attrs = attrs.toMap())  
+    tag("footer", attrs = attrs)  
 fun Html.footer(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("footer", classes, attrs.toMap())  
+    tag("footer", classes = classes, attrs = attrs)  
 
 fun Html.form(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("form", attrs = attrs.toMap(), content = content)  
+    tag("form", attrs = attrs, content = content)  
 fun Html.form(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("form", classes, attrs.toMap(), content)  
+    tag("form", classes = classes, attrs = attrs, content)  
 fun Html.form(vararg attrs: Pair<String, Any>) =  
-tag("form", attrs = attrs.toMap())  
+    tag("form", attrs = attrs)  
 fun Html.form(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("form", classes, attrs.toMap())  
+    tag("form", classes = classes, attrs = attrs)  
 
 fun Html.h1(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h1", attrs = attrs.toMap(), content = content)  
+    tag("h1", attrs = attrs, content = content)  
 fun Html.h1(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h1", classes, attrs.toMap(), content)  
+    tag("h1", classes = classes, attrs = attrs, content)  
 fun Html.h1(vararg attrs: Pair<String, Any>) =  
-tag("h1", attrs = attrs.toMap())  
+    tag("h1", attrs = attrs)  
 fun Html.h1(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("h1", classes, attrs.toMap())  
+    tag("h1", classes = classes, attrs = attrs)  
 
 fun Html.h2(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h2", attrs = attrs.toMap(), content = content)  
+    tag("h2", attrs = attrs, content = content)  
 fun Html.h2(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h2", classes, attrs.toMap(), content)  
+    tag("h2", classes = classes, attrs = attrs, content)  
 fun Html.h2(vararg attrs: Pair<String, Any>) =  
-tag("h2", attrs = attrs.toMap())  
+    tag("h2", attrs = attrs)  
 fun Html.h2(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("h2", classes, attrs.toMap())  
+    tag("h2", classes = classes, attrs = attrs)  
 
 fun Html.h3(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h3", attrs = attrs.toMap(), content = content)  
+    tag("h3", attrs = attrs, content = content)  
 fun Html.h3(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h3", classes, attrs.toMap(), content)  
+    tag("h3", classes = classes, attrs = attrs, content)  
 fun Html.h3(vararg attrs: Pair<String, Any>) =  
-tag("h3", attrs = attrs.toMap())  
+    tag("h3", attrs = attrs)  
 fun Html.h3(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("h3", classes, attrs.toMap())  
+    tag("h3", classes = classes, attrs = attrs)  
 
 fun Html.h4(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h4", attrs = attrs.toMap(), content = content)  
+    tag("h4", attrs = attrs, content = content)  
 fun Html.h4(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h4", classes, attrs.toMap(), content)  
+    tag("h4", classes = classes, attrs = attrs, content)  
 fun Html.h4(vararg attrs: Pair<String, Any>) =  
-tag("h4", attrs = attrs.toMap())  
+    tag("h4", attrs = attrs)  
 fun Html.h4(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("h4", classes, attrs.toMap())  
+    tag("h4", classes = classes, attrs = attrs)  
 
 fun Html.h5(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h5", attrs = attrs.toMap(), content = content)  
+    tag("h5", attrs = attrs, content = content)  
 fun Html.h5(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h5", classes, attrs.toMap(), content)  
+    tag("h5", classes = classes, attrs = attrs, content)  
 fun Html.h5(vararg attrs: Pair<String, Any>) =  
-tag("h5", attrs = attrs.toMap())  
+    tag("h5", attrs = attrs)  
 fun Html.h5(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("h5", classes, attrs.toMap())  
+    tag("h5", classes = classes, attrs = attrs)  
 
 fun Html.h6(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h6", attrs = attrs.toMap(), content = content)  
+    tag("h6", attrs = attrs, content = content)  
 fun Html.h6(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("h6", classes, attrs.toMap(), content)  
+    tag("h6", classes = classes, attrs = attrs, content)  
 fun Html.h6(vararg attrs: Pair<String, Any>) =  
-tag("h6", attrs = attrs.toMap())  
+    tag("h6", attrs = attrs)  
 fun Html.h6(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("h6", classes, attrs.toMap())  
+    tag("h6", classes = classes, attrs = attrs)  
 
 fun Html.head(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("head", attrs = attrs.toMap(), content = content)  
+    tag("head", attrs = attrs, content = content)  
 fun Html.head(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("head", classes, attrs.toMap(), content)  
+    tag("head", classes = classes, attrs = attrs, content)  
 fun Html.head(vararg attrs: Pair<String, Any>) =  
-tag("head", attrs = attrs.toMap())  
+    tag("head", attrs = attrs)  
 fun Html.head(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("head", classes, attrs.toMap())  
+    tag("head", classes = classes, attrs = attrs)  
 
 fun Html.header(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("header", attrs = attrs.toMap(), content = content)  
+    tag("header", attrs = attrs, content = content)  
 fun Html.header(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("header", classes, attrs.toMap(), content)  
+    tag("header", classes = classes, attrs = attrs, content)  
 fun Html.header(vararg attrs: Pair<String, Any>) =  
-tag("header", attrs = attrs.toMap())  
+    tag("header", attrs = attrs)  
 fun Html.header(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("header", classes, attrs.toMap())  
+    tag("header", classes = classes, attrs = attrs)  
 
 fun Html.hgroup(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("hgroup", attrs = attrs.toMap(), content = content)  
+    tag("hgroup", attrs = attrs, content = content)  
 fun Html.hgroup(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("hgroup", classes, attrs.toMap(), content)  
+    tag("hgroup", classes = classes, attrs = attrs, content)  
 fun Html.hgroup(vararg attrs: Pair<String, Any>) =  
-tag("hgroup", attrs = attrs.toMap())  
+    tag("hgroup", attrs = attrs)  
 fun Html.hgroup(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("hgroup", classes, attrs.toMap())  
+    tag("hgroup", classes = classes, attrs = attrs)  
 
 fun Html.hr(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("hr", attrs = attrs.toMap(), content = content)  
+    tag("hr", attrs = attrs, content = content)  
 fun Html.hr(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("hr", classes, attrs.toMap(), content)  
+    tag("hr", classes = classes, attrs = attrs, content)  
 fun Html.hr(vararg attrs: Pair<String, Any>) =  
-tag("hr", attrs = attrs.toMap())  
+    tag("hr", attrs = attrs)  
 fun Html.hr(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("hr", classes, attrs.toMap())  
+    tag("hr", classes = classes, attrs = attrs)  
 
 fun Html.html(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("html", attrs = attrs.toMap(), content = content)  
+    tag("html", attrs = attrs, content = content)  
 fun Html.html(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("html", classes, attrs.toMap(), content)  
+    tag("html", classes = classes, attrs = attrs, content)  
 fun Html.html(vararg attrs: Pair<String, Any>) =  
-tag("html", attrs = attrs.toMap())  
+    tag("html", attrs = attrs)  
 fun Html.html(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("html", classes, attrs.toMap())  
+    tag("html", classes = classes, attrs = attrs)  
 
 fun Html.i(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("i", attrs = attrs.toMap(), content = content)  
+    tag("i", attrs = attrs, content = content)  
 fun Html.i(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("i", classes, attrs.toMap(), content)  
+    tag("i", classes = classes, attrs = attrs, content)  
 fun Html.i(vararg attrs: Pair<String, Any>) =  
-tag("i", attrs = attrs.toMap())  
+    tag("i", attrs = attrs)  
 fun Html.i(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("i", classes, attrs.toMap())  
+    tag("i", classes = classes, attrs = attrs)  
 
 fun Html.iframe(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("iframe", attrs = attrs.toMap(), content = content)  
+    tag("iframe", attrs = attrs, content = content)  
 fun Html.iframe(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("iframe", classes, attrs.toMap(), content)  
+    tag("iframe", classes = classes, attrs = attrs, content)  
 fun Html.iframe(vararg attrs: Pair<String, Any>) =  
-tag("iframe", attrs = attrs.toMap())  
+    tag("iframe", attrs = attrs)  
 fun Html.iframe(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("iframe", classes, attrs.toMap())  
+    tag("iframe", classes = classes, attrs = attrs)  
 
 fun Html.img(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("img", attrs = attrs.toMap(), content = content)  
+    tag("img", attrs = attrs, content = content)  
 fun Html.img(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("img", classes, attrs.toMap(), content)  
+    tag("img", classes = classes, attrs = attrs, content)  
 fun Html.img(vararg attrs: Pair<String, Any>) =  
-tag("img", attrs = attrs.toMap())  
+    tag("img", attrs = attrs)  
 fun Html.img(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("img", classes, attrs.toMap())  
+    tag("img", classes = classes, attrs = attrs)  
 
 fun Html.input(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("input", attrs = attrs.toMap(), content = content)  
+    tag("input", attrs = attrs, content = content)  
 fun Html.input(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("input", classes, attrs.toMap(), content)  
+    tag("input", classes = classes, attrs = attrs, content)  
 fun Html.input(vararg attrs: Pair<String, Any>) =  
-tag("input", attrs = attrs.toMap())  
+    tag("input", attrs = attrs)  
 fun Html.input(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("input", classes, attrs.toMap())  
+    tag("input", classes = classes, attrs = attrs)  
 
 fun Html.ins(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ins", attrs = attrs.toMap(), content = content)  
+    tag("ins", attrs = attrs, content = content)  
 fun Html.ins(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ins", classes, attrs.toMap(), content)  
+    tag("ins", classes = classes, attrs = attrs, content)  
 fun Html.ins(vararg attrs: Pair<String, Any>) =  
-tag("ins", attrs = attrs.toMap())  
+    tag("ins", attrs = attrs)  
 fun Html.ins(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("ins", classes, attrs.toMap())  
+    tag("ins", classes = classes, attrs = attrs)  
 
 fun Html.kbd(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("kbd", attrs = attrs.toMap(), content = content)  
+    tag("kbd", attrs = attrs, content = content)  
 fun Html.kbd(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("kbd", classes, attrs.toMap(), content)  
+    tag("kbd", classes = classes, attrs = attrs, content)  
 fun Html.kbd(vararg attrs: Pair<String, Any>) =  
-tag("kbd", attrs = attrs.toMap())  
+    tag("kbd", attrs = attrs)  
 fun Html.kbd(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("kbd", classes, attrs.toMap())  
+    tag("kbd", classes = classes, attrs = attrs)  
 
 fun Html.label(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("label", attrs = attrs.toMap(), content = content)  
+    tag("label", attrs = attrs, content = content)  
 fun Html.label(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("label", classes, attrs.toMap(), content)  
+    tag("label", classes = classes, attrs = attrs, content)  
 fun Html.label(vararg attrs: Pair<String, Any>) =  
-tag("label", attrs = attrs.toMap())  
+    tag("label", attrs = attrs)  
 fun Html.label(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("label", classes, attrs.toMap())  
+    tag("label", classes = classes, attrs = attrs)  
 
 fun Html.legend(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("legend", attrs = attrs.toMap(), content = content)  
+    tag("legend", attrs = attrs, content = content)  
 fun Html.legend(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("legend", classes, attrs.toMap(), content)  
+    tag("legend", classes = classes, attrs = attrs, content)  
 fun Html.legend(vararg attrs: Pair<String, Any>) =  
-tag("legend", attrs = attrs.toMap())  
+    tag("legend", attrs = attrs)  
 fun Html.legend(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("legend", classes, attrs.toMap())  
+    tag("legend", classes = classes, attrs = attrs)  
 
 fun Html.li(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("li", attrs = attrs.toMap(), content = content)  
+    tag("li", attrs = attrs, content = content)  
 fun Html.li(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("li", classes, attrs.toMap(), content)  
+    tag("li", classes = classes, attrs = attrs, content)  
 fun Html.li(vararg attrs: Pair<String, Any>) =  
-tag("li", attrs = attrs.toMap())  
+    tag("li", attrs = attrs)  
 fun Html.li(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("li", classes, attrs.toMap())  
+    tag("li", classes = classes, attrs = attrs)  
 
 fun Html.link(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("link", attrs = attrs.toMap(), content = content)  
+    tag("link", attrs = attrs, content = content)  
 fun Html.link(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("link", classes, attrs.toMap(), content)  
+    tag("link", classes = classes, attrs = attrs, content)  
 fun Html.link(vararg attrs: Pair<String, Any>) =  
-tag("link", attrs = attrs.toMap())  
+    tag("link", attrs = attrs)  
 fun Html.link(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("link", classes, attrs.toMap())  
+    tag("link", classes = classes, attrs = attrs)  
 
 fun Html.main(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("main", attrs = attrs.toMap(), content = content)  
+    tag("main", attrs = attrs, content = content)  
 fun Html.main(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("main", classes, attrs.toMap(), content)  
+    tag("main", classes = classes, attrs = attrs, content)  
 fun Html.main(vararg attrs: Pair<String, Any>) =  
-tag("main", attrs = attrs.toMap())  
+    tag("main", attrs = attrs)  
 fun Html.main(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("main", classes, attrs.toMap())  
+    tag("main", classes = classes, attrs = attrs)  
 
 fun Html.map(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("map", attrs = attrs.toMap(), content = content)  
+    tag("map", attrs = attrs, content = content)  
 fun Html.map(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("map", classes, attrs.toMap(), content)  
+    tag("map", classes = classes, attrs = attrs, content)  
 fun Html.map(vararg attrs: Pair<String, Any>) =  
-tag("map", attrs = attrs.toMap())  
+    tag("map", attrs = attrs)  
 fun Html.map(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("map", classes, attrs.toMap())  
+    tag("map", classes = classes, attrs = attrs)  
 
 fun Html.mark(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("mark", attrs = attrs.toMap(), content = content)  
+    tag("mark", attrs = attrs, content = content)  
 fun Html.mark(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("mark", classes, attrs.toMap(), content)  
+    tag("mark", classes = classes, attrs = attrs, content)  
 fun Html.mark(vararg attrs: Pair<String, Any>) =  
-tag("mark", attrs = attrs.toMap())  
+    tag("mark", attrs = attrs)  
 fun Html.mark(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("mark", classes, attrs.toMap())  
+    tag("mark", classes = classes, attrs = attrs)  
 
 fun Html.meta(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("meta", attrs = attrs.toMap(), content = content)  
+    tag("meta", attrs = attrs, content = content)  
 fun Html.meta(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("meta", classes, attrs.toMap(), content)  
+    tag("meta", classes = classes, attrs = attrs, content)  
 fun Html.meta(vararg attrs: Pair<String, Any>) =  
-tag("meta", attrs = attrs.toMap())  
+    tag("meta", attrs = attrs)  
 fun Html.meta(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("meta", classes, attrs.toMap())  
+    tag("meta", classes = classes, attrs = attrs)  
 
 fun Html.meter(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("meter", attrs = attrs.toMap(), content = content)  
+    tag("meter", attrs = attrs, content = content)  
 fun Html.meter(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("meter", classes, attrs.toMap(), content)  
+    tag("meter", classes = classes, attrs = attrs, content)  
 fun Html.meter(vararg attrs: Pair<String, Any>) =  
-tag("meter", attrs = attrs.toMap())  
+    tag("meter", attrs = attrs)  
 fun Html.meter(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("meter", classes, attrs.toMap())  
+    tag("meter", classes = classes, attrs = attrs)  
 
 fun Html.nav(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("nav", attrs = attrs.toMap(), content = content)  
+    tag("nav", attrs = attrs, content = content)  
 fun Html.nav(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("nav", classes, attrs.toMap(), content)  
+    tag("nav", classes = classes, attrs = attrs, content)  
 fun Html.nav(vararg attrs: Pair<String, Any>) =  
-tag("nav", attrs = attrs.toMap())  
+    tag("nav", attrs = attrs)  
 fun Html.nav(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("nav", classes, attrs.toMap())  
+    tag("nav", classes = classes, attrs = attrs)  
 
 fun Html.noscript(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("noscript", attrs = attrs.toMap(), content = content)  
+    tag("noscript", attrs = attrs, content = content)  
 fun Html.noscript(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("noscript", classes, attrs.toMap(), content)  
+    tag("noscript", classes = classes, attrs = attrs, content)  
 fun Html.noscript(vararg attrs: Pair<String, Any>) =  
-tag("noscript", attrs = attrs.toMap())  
+    tag("noscript", attrs = attrs)  
 fun Html.noscript(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("noscript", classes, attrs.toMap())  
+    tag("noscript", classes = classes, attrs = attrs)  
 
 fun Html.`object`(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("object", attrs = attrs.toMap(), content = content)  
+    tag("object", attrs = attrs, content = content)  
 fun Html.`object`(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("object", classes, attrs.toMap(), content)  
+    tag("object", classes = classes, attrs = attrs, content)  
 fun Html.`object`(vararg attrs: Pair<String, Any>) =  
-tag("object", attrs = attrs.toMap())  
+    tag("object", attrs = attrs)  
 fun Html.`object`(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("object", classes, attrs.toMap())  
+    tag("object", classes = classes, attrs = attrs)  
 
 fun Html.ol(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ol", attrs = attrs.toMap(), content = content)  
+    tag("ol", attrs = attrs, content = content)  
 fun Html.ol(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ol", classes, attrs.toMap(), content)  
+    tag("ol", classes = classes, attrs = attrs, content)  
 fun Html.ol(vararg attrs: Pair<String, Any>) =  
-tag("ol", attrs = attrs.toMap())  
+    tag("ol", attrs = attrs)  
 fun Html.ol(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("ol", classes, attrs.toMap())  
+    tag("ol", classes = classes, attrs = attrs)  
 
 fun Html.optgroup(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("optgroup", attrs = attrs.toMap(), content = content)  
+    tag("optgroup", attrs = attrs, content = content)  
 fun Html.optgroup(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("optgroup", classes, attrs.toMap(), content)  
+    tag("optgroup", classes = classes, attrs = attrs, content)  
 fun Html.optgroup(vararg attrs: Pair<String, Any>) =  
-tag("optgroup", attrs = attrs.toMap())  
+    tag("optgroup", attrs = attrs)  
 fun Html.optgroup(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("optgroup", classes, attrs.toMap())  
+    tag("optgroup", classes = classes, attrs = attrs)  
 
 fun Html.option(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("option", attrs = attrs.toMap(), content = content)  
+    tag("option", attrs = attrs, content = content)  
 fun Html.option(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("option", classes, attrs.toMap(), content)  
+    tag("option", classes = classes, attrs = attrs, content)  
 fun Html.option(vararg attrs: Pair<String, Any>) =  
-tag("option", attrs = attrs.toMap())  
+    tag("option", attrs = attrs)  
 fun Html.option(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("option", classes, attrs.toMap())  
+    tag("option", classes = classes, attrs = attrs)  
 
 fun Html.output(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("output", attrs = attrs.toMap(), content = content)  
+    tag("output", attrs = attrs, content = content)  
 fun Html.output(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("output", classes, attrs.toMap(), content)  
+    tag("output", classes = classes, attrs = attrs, content)  
 fun Html.output(vararg attrs: Pair<String, Any>) =  
-tag("output", attrs = attrs.toMap())  
+    tag("output", attrs = attrs)  
 fun Html.output(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("output", classes, attrs.toMap())  
+    tag("output", classes = classes, attrs = attrs)  
 
 fun Html.p(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("p", attrs = attrs.toMap(), content = content)  
+    tag("p", attrs = attrs, content = content)  
 fun Html.p(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("p", classes, attrs.toMap(), content)  
+    tag("p", classes = classes, attrs = attrs, content)  
 fun Html.p(vararg attrs: Pair<String, Any>) =  
-tag("p", attrs = attrs.toMap())  
+    tag("p", attrs = attrs)  
 fun Html.p(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("p", classes, attrs.toMap())  
+    tag("p", classes = classes, attrs = attrs)  
 
 fun Html.param(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("param", attrs = attrs.toMap(), content = content)  
+    tag("param", attrs = attrs, content = content)  
 fun Html.param(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("param", classes, attrs.toMap(), content)  
+    tag("param", classes = classes, attrs = attrs, content)  
 fun Html.param(vararg attrs: Pair<String, Any>) =  
-tag("param", attrs = attrs.toMap())  
+    tag("param", attrs = attrs)  
 fun Html.param(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("param", classes, attrs.toMap())  
+    tag("param", classes = classes, attrs = attrs)  
 
 fun Html.picture(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("picture", attrs = attrs.toMap(), content = content)  
+    tag("picture", attrs = attrs, content = content)  
 fun Html.picture(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("picture", classes, attrs.toMap(), content)  
+    tag("picture", classes = classes, attrs = attrs, content)  
 fun Html.picture(vararg attrs: Pair<String, Any>) =  
-tag("picture", attrs = attrs.toMap())  
+    tag("picture", attrs = attrs)  
 fun Html.picture(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("picture", classes, attrs.toMap())  
+    tag("picture", classes = classes, attrs = attrs)  
 
 fun Html.pre(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("pre", attrs = attrs.toMap(), content = content)  
+    tag("pre", attrs = attrs, content = content)  
 fun Html.pre(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("pre", classes, attrs.toMap(), content)  
+    tag("pre", classes = classes, attrs = attrs, content)  
 fun Html.pre(vararg attrs: Pair<String, Any>) =  
-tag("pre", attrs = attrs.toMap())  
+    tag("pre", attrs = attrs)  
 fun Html.pre(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("pre", classes, attrs.toMap())  
+    tag("pre", classes = classes, attrs = attrs)  
 
 fun Html.progress(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("progress", attrs = attrs.toMap(), content = content)  
+    tag("progress", attrs = attrs, content = content)  
 fun Html.progress(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("progress", classes, attrs.toMap(), content)  
+    tag("progress", classes = classes, attrs = attrs, content)  
 fun Html.progress(vararg attrs: Pair<String, Any>) =  
-tag("progress", attrs = attrs.toMap())  
+    tag("progress", attrs = attrs)  
 fun Html.progress(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("progress", classes, attrs.toMap())  
+    tag("progress", classes = classes, attrs = attrs)  
 
 fun Html.q(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("q", attrs = attrs.toMap(), content = content)  
+    tag("q", attrs = attrs, content = content)  
 fun Html.q(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("q", classes, attrs.toMap(), content)  
+    tag("q", classes = classes, attrs = attrs, content)  
 fun Html.q(vararg attrs: Pair<String, Any>) =  
-tag("q", attrs = attrs.toMap())  
+    tag("q", attrs = attrs)  
 fun Html.q(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("q", classes, attrs.toMap())  
+    tag("q", classes = classes, attrs = attrs)  
 
 fun Html.rb(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rb", attrs = attrs.toMap(), content = content)  
+    tag("rb", attrs = attrs, content = content)  
 fun Html.rb(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rb", classes, attrs.toMap(), content)  
+    tag("rb", classes = classes, attrs = attrs, content)  
 fun Html.rb(vararg attrs: Pair<String, Any>) =  
-tag("rb", attrs = attrs.toMap())  
+    tag("rb", attrs = attrs)  
 fun Html.rb(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("rb", classes, attrs.toMap())  
+    tag("rb", classes = classes, attrs = attrs)  
 
 fun Html.rp(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rp", attrs = attrs.toMap(), content = content)  
+    tag("rp", attrs = attrs, content = content)  
 fun Html.rp(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rp", classes, attrs.toMap(), content)  
+    tag("rp", classes = classes, attrs = attrs, content)  
 fun Html.rp(vararg attrs: Pair<String, Any>) =  
-tag("rp", attrs = attrs.toMap())  
+    tag("rp", attrs = attrs)  
 fun Html.rp(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("rp", classes, attrs.toMap())  
+    tag("rp", classes = classes, attrs = attrs)  
 
 fun Html.rt(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rt", attrs = attrs.toMap(), content = content)  
+    tag("rt", attrs = attrs, content = content)  
 fun Html.rt(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rt", classes, attrs.toMap(), content)  
+    tag("rt", classes = classes, attrs = attrs, content)  
 fun Html.rt(vararg attrs: Pair<String, Any>) =  
-tag("rt", attrs = attrs.toMap())  
+    tag("rt", attrs = attrs)  
 fun Html.rt(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("rt", classes, attrs.toMap())  
+    tag("rt", classes = classes, attrs = attrs)  
 
 fun Html.rtc(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rtc", attrs = attrs.toMap(), content = content)  
+    tag("rtc", attrs = attrs, content = content)  
 fun Html.rtc(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("rtc", classes, attrs.toMap(), content)  
+    tag("rtc", classes = classes, attrs = attrs, content)  
 fun Html.rtc(vararg attrs: Pair<String, Any>) =  
-tag("rtc", attrs = attrs.toMap())  
+    tag("rtc", attrs = attrs)  
 fun Html.rtc(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("rtc", classes, attrs.toMap())  
+    tag("rtc", classes = classes, attrs = attrs)  
 
 fun Html.ruby(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ruby", attrs = attrs.toMap(), content = content)  
+    tag("ruby", attrs = attrs, content = content)  
 fun Html.ruby(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ruby", classes, attrs.toMap(), content)  
+    tag("ruby", classes = classes, attrs = attrs, content)  
 fun Html.ruby(vararg attrs: Pair<String, Any>) =  
-tag("ruby", attrs = attrs.toMap())  
+    tag("ruby", attrs = attrs)  
 fun Html.ruby(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("ruby", classes, attrs.toMap())  
+    tag("ruby", classes = classes, attrs = attrs)  
 
 fun Html.s(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("s", attrs = attrs.toMap(), content = content)  
+    tag("s", attrs = attrs, content = content)  
 fun Html.s(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("s", classes, attrs.toMap(), content)  
+    tag("s", classes = classes, attrs = attrs, content)  
 fun Html.s(vararg attrs: Pair<String, Any>) =  
-tag("s", attrs = attrs.toMap())  
+    tag("s", attrs = attrs)  
 fun Html.s(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("s", classes, attrs.toMap())  
+    tag("s", classes = classes, attrs = attrs)  
 
 fun Html.samp(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("samp", attrs = attrs.toMap(), content = content)  
+    tag("samp", attrs = attrs, content = content)  
 fun Html.samp(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("samp", classes, attrs.toMap(), content)  
+    tag("samp", classes = classes, attrs = attrs, content)  
 fun Html.samp(vararg attrs: Pair<String, Any>) =  
-tag("samp", attrs = attrs.toMap())  
+    tag("samp", attrs = attrs)  
 fun Html.samp(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("samp", classes, attrs.toMap())  
+    tag("samp", classes = classes, attrs = attrs)  
 
 fun Html.script(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("script", attrs = attrs.toMap(), content = content)  
+    tag("script", attrs = attrs, content = content)  
 fun Html.script(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("script", classes, attrs.toMap(), content)  
+    tag("script", classes = classes, attrs = attrs, content)  
 fun Html.script(vararg attrs: Pair<String, Any>) =  
-tag("script", attrs = attrs.toMap())  
+    tag("script", attrs = attrs)  
 fun Html.script(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("script", classes, attrs.toMap())  
+    tag("script", classes = classes, attrs = attrs)  
 
 fun Html.section(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("section", attrs = attrs.toMap(), content = content)  
+    tag("section", attrs = attrs, content = content)  
 fun Html.section(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("section", classes, attrs.toMap(), content)  
+    tag("section", classes = classes, attrs = attrs, content)  
 fun Html.section(vararg attrs: Pair<String, Any>) =  
-tag("section", attrs = attrs.toMap())  
+    tag("section", attrs = attrs)  
 fun Html.section(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("section", classes, attrs.toMap())  
+    tag("section", classes = classes, attrs = attrs)  
 
 fun Html.select(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("select", attrs = attrs.toMap(), content = content)  
+    tag("select", attrs = attrs, content = content)  
 fun Html.select(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("select", classes, attrs.toMap(), content)  
+    tag("select", classes = classes, attrs = attrs, content)  
 fun Html.select(vararg attrs: Pair<String, Any>) =  
-tag("select", attrs = attrs.toMap())  
+    tag("select", attrs = attrs)  
 fun Html.select(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("select", classes, attrs.toMap())  
+    tag("select", classes = classes, attrs = attrs)  
 
 fun Html.slot(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("slot", attrs = attrs.toMap(), content = content)  
+    tag("slot", attrs = attrs, content = content)  
 fun Html.slot(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("slot", classes, attrs.toMap(), content)  
+    tag("slot", classes = classes, attrs = attrs, content)  
 fun Html.slot(vararg attrs: Pair<String, Any>) =  
-tag("slot", attrs = attrs.toMap())  
+    tag("slot", attrs = attrs)  
 fun Html.slot(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("slot", classes, attrs.toMap())  
+    tag("slot", classes = classes, attrs = attrs)  
 
 fun Html.small(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("small", attrs = attrs.toMap(), content = content)  
+    tag("small", attrs = attrs, content = content)  
 fun Html.small(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("small", classes, attrs.toMap(), content)  
+    tag("small", classes = classes, attrs = attrs, content)  
 fun Html.small(vararg attrs: Pair<String, Any>) =  
-tag("small", attrs = attrs.toMap())  
+    tag("small", attrs = attrs)  
 fun Html.small(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("small", classes, attrs.toMap())  
+    tag("small", classes = classes, attrs = attrs)  
 
 fun Html.source(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("source", attrs = attrs.toMap(), content = content)  
+    tag("source", attrs = attrs, content = content)  
 fun Html.source(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("source", classes, attrs.toMap(), content)  
+    tag("source", classes = classes, attrs = attrs, content)  
 fun Html.source(vararg attrs: Pair<String, Any>) =  
-tag("source", attrs = attrs.toMap())  
+    tag("source", attrs = attrs)  
 fun Html.source(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("source", classes, attrs.toMap())  
+    tag("source", classes = classes, attrs = attrs)  
 
 fun Html.span(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("span", attrs = attrs.toMap(), content = content)  
+    tag("span", attrs = attrs, content = content)  
 fun Html.span(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("span", classes, attrs.toMap(), content)  
+    tag("span", classes = classes, attrs = attrs, content)  
 fun Html.span(vararg attrs: Pair<String, Any>) =  
-tag("span", attrs = attrs.toMap())  
+    tag("span", attrs = attrs)  
 fun Html.span(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("span", classes, attrs.toMap())  
+    tag("span", classes = classes, attrs = attrs)  
 
 fun Html.strong(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("strong", attrs = attrs.toMap(), content = content)  
+    tag("strong", attrs = attrs, content = content)  
 fun Html.strong(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("strong", classes, attrs.toMap(), content)  
+    tag("strong", classes = classes, attrs = attrs, content)  
 fun Html.strong(vararg attrs: Pair<String, Any>) =  
-tag("strong", attrs = attrs.toMap())  
+    tag("strong", attrs = attrs)  
 fun Html.strong(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("strong", classes, attrs.toMap())  
+    tag("strong", classes = classes, attrs = attrs)  
 
 fun Html.style(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("style", attrs = attrs.toMap(), content = content)  
+    tag("style", attrs = attrs, content = content)  
 fun Html.style(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("style", classes, attrs.toMap(), content)  
+    tag("style", classes = classes, attrs = attrs, content)  
 fun Html.style(vararg attrs: Pair<String, Any>) =  
-tag("style", attrs = attrs.toMap())  
+    tag("style", attrs = attrs)  
 fun Html.style(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("style", classes, attrs.toMap())  
+    tag("style", classes = classes, attrs = attrs)  
 
 fun Html.sub(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("sub", attrs = attrs.toMap(), content = content)  
+    tag("sub", attrs = attrs, content = content)  
 fun Html.sub(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("sub", classes, attrs.toMap(), content)  
+    tag("sub", classes = classes, attrs = attrs, content)  
 fun Html.sub(vararg attrs: Pair<String, Any>) =  
-tag("sub", attrs = attrs.toMap())  
+    tag("sub", attrs = attrs)  
 fun Html.sub(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("sub", classes, attrs.toMap())  
+    tag("sub", classes = classes, attrs = attrs)  
 
 fun Html.summary(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("summary", attrs = attrs.toMap(), content = content)  
+    tag("summary", attrs = attrs, content = content)  
 fun Html.summary(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("summary", classes, attrs.toMap(), content)  
+    tag("summary", classes = classes, attrs = attrs, content)  
 fun Html.summary(vararg attrs: Pair<String, Any>) =  
-tag("summary", attrs = attrs.toMap())  
+    tag("summary", attrs = attrs)  
 fun Html.summary(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("summary", classes, attrs.toMap())  
+    tag("summary", classes = classes, attrs = attrs)  
 
 fun Html.sup(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("sup", attrs = attrs.toMap(), content = content)  
+    tag("sup", attrs = attrs, content = content)  
 fun Html.sup(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("sup", classes, attrs.toMap(), content)  
+    tag("sup", classes = classes, attrs = attrs, content)  
 fun Html.sup(vararg attrs: Pair<String, Any>) =  
-tag("sup", attrs = attrs.toMap())  
+    tag("sup", attrs = attrs)  
 fun Html.sup(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("sup", classes, attrs.toMap())  
+    tag("sup", classes = classes, attrs = attrs)  
 
 fun Html.svg(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("svg", attrs = attrs.toMap(), content = content)  
+    tag("svg", attrs = attrs, content = content)  
 fun Html.svg(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("svg", classes, attrs.toMap(), content)  
+    tag("svg", classes = classes, attrs = attrs, content)  
 fun Html.svg(vararg attrs: Pair<String, Any>) =  
-tag("svg", attrs = attrs.toMap())  
+    tag("svg", attrs = attrs)  
 fun Html.svg(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("svg", classes, attrs.toMap())  
+    tag("svg", classes = classes, attrs = attrs)  
 
 fun Html.table(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("table", attrs = attrs.toMap(), content = content)  
+    tag("table", attrs = attrs, content = content)  
 fun Html.table(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("table", classes, attrs.toMap(), content)  
+    tag("table", classes = classes, attrs = attrs, content)  
 fun Html.table(vararg attrs: Pair<String, Any>) =  
-tag("table", attrs = attrs.toMap())  
+    tag("table", attrs = attrs)  
 fun Html.table(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("table", classes, attrs.toMap())  
+    tag("table", classes = classes, attrs = attrs)  
 
 fun Html.tbody(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("tbody", attrs = attrs.toMap(), content = content)  
+    tag("tbody", attrs = attrs, content = content)  
 fun Html.tbody(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("tbody", classes, attrs.toMap(), content)  
+    tag("tbody", classes = classes, attrs = attrs, content)  
 fun Html.tbody(vararg attrs: Pair<String, Any>) =  
-tag("tbody", attrs = attrs.toMap())  
+    tag("tbody", attrs = attrs)  
 fun Html.tbody(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("tbody", classes, attrs.toMap())  
+    tag("tbody", classes = classes, attrs = attrs)  
 
 fun Html.td(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("td", attrs = attrs.toMap(), content = content)  
+    tag("td", attrs = attrs, content = content)  
 fun Html.td(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("td", classes, attrs.toMap(), content)  
+    tag("td", classes = classes, attrs = attrs, content)  
 fun Html.td(vararg attrs: Pair<String, Any>) =  
-tag("td", attrs = attrs.toMap())  
+    tag("td", attrs = attrs)  
 fun Html.td(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("td", classes, attrs.toMap())  
+    tag("td", classes = classes, attrs = attrs)  
 
 fun Html.template(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("template", attrs = attrs.toMap(), content = content)  
+    tag("template", attrs = attrs, content = content)  
 fun Html.template(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("template", classes, attrs.toMap(), content)  
+    tag("template", classes = classes, attrs = attrs, content)  
 fun Html.template(vararg attrs: Pair<String, Any>) =  
-tag("template", attrs = attrs.toMap())  
+    tag("template", attrs = attrs)  
 fun Html.template(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("template", classes, attrs.toMap())  
+    tag("template", classes = classes, attrs = attrs)  
 
 fun Html.textarea(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("textarea", attrs = attrs.toMap(), content = content)  
+    tag("textarea", attrs = attrs, content = content)  
 fun Html.textarea(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("textarea", classes, attrs.toMap(), content)  
+    tag("textarea", classes = classes, attrs = attrs, content)  
 fun Html.textarea(vararg attrs: Pair<String, Any>) =  
-tag("textarea", attrs = attrs.toMap())  
+    tag("textarea", attrs = attrs)  
 fun Html.textarea(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("textarea", classes, attrs.toMap())  
+    tag("textarea", classes = classes, attrs = attrs)  
 
 fun Html.tfoot(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("tfoot", attrs = attrs.toMap(), content = content)  
+    tag("tfoot", attrs = attrs, content = content)  
 fun Html.tfoot(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("tfoot", classes, attrs.toMap(), content)  
+    tag("tfoot", classes = classes, attrs = attrs, content)  
 fun Html.tfoot(vararg attrs: Pair<String, Any>) =  
-tag("tfoot", attrs = attrs.toMap())  
+    tag("tfoot", attrs = attrs)  
 fun Html.tfoot(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("tfoot", classes, attrs.toMap())  
+    tag("tfoot", classes = classes, attrs = attrs)  
 
 fun Html.th(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("th", attrs = attrs.toMap(), content = content)  
+    tag("th", attrs = attrs, content = content)  
 fun Html.th(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("th", classes, attrs.toMap(), content)  
+    tag("th", classes = classes, attrs = attrs, content)  
 fun Html.th(vararg attrs: Pair<String, Any>) =  
-tag("th", attrs = attrs.toMap())  
+    tag("th", attrs = attrs)  
 fun Html.th(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("th", classes, attrs.toMap())  
+    tag("th", classes = classes, attrs = attrs)  
 
 fun Html.thead(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("thead", attrs = attrs.toMap(), content = content)  
+    tag("thead", attrs = attrs, content = content)  
 fun Html.thead(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("thead", classes, attrs.toMap(), content)  
+    tag("thead", classes = classes, attrs = attrs, content)  
 fun Html.thead(vararg attrs: Pair<String, Any>) =  
-tag("thead", attrs = attrs.toMap())  
+    tag("thead", attrs = attrs)  
 fun Html.thead(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("thead", classes, attrs.toMap())  
+    tag("thead", classes = classes, attrs = attrs)  
 
 fun Html.time(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("time", attrs = attrs.toMap(), content = content)  
+    tag("time", attrs = attrs, content = content)  
 fun Html.time(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("time", classes, attrs.toMap(), content)  
+    tag("time", classes = classes, attrs = attrs, content)  
 fun Html.time(vararg attrs: Pair<String, Any>) =  
-tag("time", attrs = attrs.toMap())  
+    tag("time", attrs = attrs)  
 fun Html.time(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("time", classes, attrs.toMap())  
+    tag("time", classes = classes, attrs = attrs)  
 
 fun Html.title(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("title", attrs = attrs.toMap(), content = content)  
+    tag("title", attrs = attrs, content = content)  
 fun Html.title(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("title", classes, attrs.toMap(), content)  
+    tag("title", classes = classes, attrs = attrs, content)  
 fun Html.title(vararg attrs: Pair<String, Any>) =  
-tag("title", attrs = attrs.toMap())  
+    tag("title", attrs = attrs)  
 fun Html.title(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("title", classes, attrs.toMap())  
+    tag("title", classes = classes, attrs = attrs)  
 
 fun Html.tr(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("tr", attrs = attrs.toMap(), content = content)  
+    tag("tr", attrs = attrs, content = content)  
 fun Html.tr(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("tr", classes, attrs.toMap(), content)  
+    tag("tr", classes = classes, attrs = attrs, content)  
 fun Html.tr(vararg attrs: Pair<String, Any>) =  
-tag("tr", attrs = attrs.toMap())  
+    tag("tr", attrs = attrs)  
 fun Html.tr(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("tr", classes, attrs.toMap())  
+    tag("tr", classes = classes, attrs = attrs)  
 
 fun Html.track(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("track", attrs = attrs.toMap(), content = content)  
+    tag("track", attrs = attrs, content = content)  
 fun Html.track(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("track", classes, attrs.toMap(), content)  
+    tag("track", classes = classes, attrs = attrs, content)  
 fun Html.track(vararg attrs: Pair<String, Any>) =  
-tag("track", attrs = attrs.toMap())  
+    tag("track", attrs = attrs)  
 fun Html.track(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("track", classes, attrs.toMap())  
+    tag("track", classes = classes, attrs = attrs)  
 
 fun Html.u(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("u", attrs = attrs.toMap(), content = content)  
+    tag("u", attrs = attrs, content = content)  
 fun Html.u(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("u", classes, attrs.toMap(), content)  
+    tag("u", classes = classes, attrs = attrs, content)  
 fun Html.u(vararg attrs: Pair<String, Any>) =  
-tag("u", attrs = attrs.toMap())  
+    tag("u", attrs = attrs)  
 fun Html.u(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("u", classes, attrs.toMap())  
+    tag("u", classes = classes, attrs = attrs)  
 
 fun Html.ul(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ul", attrs = attrs.toMap(), content = content)  
+    tag("ul", attrs = attrs, content = content)  
 fun Html.ul(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("ul", classes, attrs.toMap(), content)  
+    tag("ul", classes = classes, attrs = attrs, content)  
 fun Html.ul(vararg attrs: Pair<String, Any>) =  
-tag("ul", attrs = attrs.toMap())  
+    tag("ul", attrs = attrs)  
 fun Html.ul(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("ul", classes, attrs.toMap())  
+    tag("ul", classes = classes, attrs = attrs)  
 
 fun Html.`var`(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("var", attrs = attrs.toMap(), content = content)  
+    tag("var", attrs = attrs, content = content)  
 fun Html.`var`(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("var", classes, attrs.toMap(), content)  
+    tag("var", classes = classes, attrs = attrs, content)  
 fun Html.`var`(vararg attrs: Pair<String, Any>) =  
-tag("var", attrs = attrs.toMap())  
+    tag("var", attrs = attrs)  
 fun Html.`var`(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("var", classes, attrs.toMap())  
+    tag("var", classes = classes, attrs = attrs)  
 
 fun Html.video(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("video", attrs = attrs.toMap(), content = content)  
+    tag("video", attrs = attrs, content = content)  
 fun Html.video(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("video", classes, attrs.toMap(), content)  
+    tag("video", classes = classes, attrs = attrs, content)  
 fun Html.video(vararg attrs: Pair<String, Any>) =  
-tag("video", attrs = attrs.toMap())  
+    tag("video", attrs = attrs)  
 fun Html.video(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("video", classes, attrs.toMap())  
+    tag("video", classes = classes, attrs = attrs)  
 
 fun Html.wbr(vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("wbr", attrs = attrs.toMap(), content = content)  
+    tag("wbr", attrs = attrs, content = content)  
 fun Html.wbr(classes: String? = null, vararg attrs: Pair<String, Any>, content: Html.() -> Unit) =  
-tag("wbr", classes, attrs.toMap(), content)  
+    tag("wbr", classes = classes, attrs = attrs, content)  
 fun Html.wbr(vararg attrs: Pair<String, Any>) =  
-tag("wbr", attrs = attrs.toMap())  
+    tag("wbr", attrs = attrs)  
 fun Html.wbr(classes: String? = null, vararg attrs: Pair<String, Any>) =  
-tag("wbr", classes, attrs.toMap())  
+    tag("wbr", classes = classes, attrs = attrs)  
 

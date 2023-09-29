@@ -17,7 +17,6 @@ publishing {
             version = scmVersion.version
             artifact(tasks.jar)
             artifact(tasks.kotlinSourcesJar)
-            artifact(tasks.javadoc)
         }
         withType<MavenPublication> {
             pom {

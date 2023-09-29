@@ -4,10 +4,17 @@ plugins {
     id("maven-publish")
     id("signing")
     id("pl.allegro.tech.build.axion-release") version "1.15.4"
+    id("org.jetbrains.dokka") version "1.9.0"
 }
 
 group = "io.github.marad"
 project.version = scmVersion.version
+
+tasks.register<Jar>("dokkaJavadocJar") {
+    dependsOn(tasks.dokkaJavadoc)
+    from(tasks.dokkaJavadoc.flatMap { it.outputDirectory })
+    archiveClassifier.set("javadoc")
+}
 
 publishing {
     publications {
@@ -17,10 +24,14 @@ publishing {
             version = scmVersion.version
             artifact(tasks.jar)
             artifact(tasks.kotlinSourcesJar)
+            artifact(tasks["dokkaJavadocJar"])
         }
         withType<MavenPublication> {
             pom {
                 packaging = "jar"
+                name.set(artifactId)
+                description.set("Library for easy HTML generation.")
+                url.set("https://github.com/marad/kotlin-html-dsl")
                 licenses {
                     license {
                         name.set("MIT License")

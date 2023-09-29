@@ -16,9 +16,10 @@ jobs:
   publish:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-tags: true
+          show-progress: false
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
